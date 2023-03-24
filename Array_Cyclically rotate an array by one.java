@@ -1,5 +1,4 @@
 class Compute {
-  
     public void rotate(int arr[], int n)
     {
         for(int i=1; i<n ; i++){
@@ -8,4 +7,6 @@ class Compute {
             arr[n-i-1] = temp;
         }
     } 
+
 }
+ 
